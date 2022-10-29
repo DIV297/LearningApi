@@ -25,7 +25,8 @@ for adding favourite teacher(put) : localhost:3005/api/fav/addfavteacher/:user  
 
 for removing fav teacher(del) : localhost:3005/api/fav/removefavteacher/:user
 
-get most fav teacher(get) : localhost:3005/api/fav/mostfavteacher/
+get most fav teacher(get) : localhost:3005/api/fav/mostfavteacher/              
+using mongodb aggregation.
 
 ### for teacher->
 for adding teacher(post) : localhost:3005/api/Tuser/addteacher
