@@ -20,6 +20,7 @@ for login user(post): localhost:3005/api/Suser/loginstudent
 for getting details like id,name(post) : localhost:3005/api/Suser/getstudent
 
 for adding favourite teacher(put) : localhost:3005/api/fav/addfavteacher/:user       here in place of user provide id of user you can fetch it from localhost:3005/api/Suser/getstudent
+
 for removing fav teacher(del) : localhost:3005/api/fav/removefavteacher/:user
 
 get most fav teacher(get) : localhost:3005/api/fav/mostfavteacher/
