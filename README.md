@@ -4,8 +4,9 @@ This api is created using Express, Node and MongoDB.
 # How to run api
 In api folder
 index.js is main file which needs to be run with command->   nodemon index.js
-db.js is a database file where you can change link and add your database link
 
+db.js is a database file where you can change link and add your database link
+you need to change link of database in favteacher.js also at last where aggregation code is there.
 
 checking api - you can check api on thunderclient
 differnet endpoints are->
