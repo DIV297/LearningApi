@@ -2,6 +2,7 @@
 This api is created using Express, Node and MongoDB.
 
 ## How to run api
+Note-Install node_modules,express,nodemon,bcrypt,express-validator,nodemon,moongose,jsonwebtoken with npm.
 In api folder
 index.js is main file which needs to be run with command->   nodemon index.js
 
