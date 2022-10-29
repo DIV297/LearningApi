@@ -8,6 +8,7 @@ const { MongoClient } = require("mongodb");
 
 /*********************************
 add teacher in Favourite List. 
+auth-token should be requested. auth-token is what we get during login of student.
 here you have to provide id of user in place of :user
  *********************************/
 router.put('/addfavteacher/:user',
@@ -46,6 +47,7 @@ router.put('/addfavteacher/:user',
 
 /************************************************
 removing teacher from fav list
+auth-token should be requested. auth-token is what we get during login of student.
 here you have to provide id of user in place of :user 
 *******************************************/
 router.delete('/removefavteacher/:user', fetchuser, async (request, response) => {
