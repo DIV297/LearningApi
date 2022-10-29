@@ -85,7 +85,7 @@ router.post("/loginstudent", [
 });
 
 /***********************************************
- Getting student details
+ Getting student details. auth-token should be requested which will fectch details. auth-token is what we get during login.
 *************************************************/
 router.post('/getstudent', fetchuser, async (request, response) => {
     try {
